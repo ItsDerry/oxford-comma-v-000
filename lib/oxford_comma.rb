@@ -1,5 +1,5 @@
 def oxford_comma(array)
-    if array.count < 3
+    if array.count < 2
       array.join(", ")
     else
       new_string = String.new
