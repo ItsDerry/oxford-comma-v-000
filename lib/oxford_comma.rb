@@ -8,4 +8,5 @@ def oxford_comma(array)
       new_string << array.index(-1)
     end
     new_string
+  end
 end
