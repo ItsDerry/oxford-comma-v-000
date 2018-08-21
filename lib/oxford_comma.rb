@@ -1,5 +1,8 @@
 def oxford_comma(array)
-    new_string = String.new
+    if array.count < 3
+      array.join(", ")
+    else
+      new_string = String.new
     array.each do |string|
       new_string = array.join(", ")
       new_string << array.index(-1)
